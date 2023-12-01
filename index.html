@@ -64,13 +64,25 @@
         }
     </style>
 </head>
+
+<script>
+    function downloadCV() {
+    var cvLink = "https://drive.google.com/file/d/1-t2eJrwjOtGn-Hrd2LMtAeK9HQPGdXWV/view?usp=sharing";
+    window.open(cvLink, '_blank');
+  }
+</script>
+	
 <body>
     <header>
         <h1>Welcome to <span>Night Bar Event</span></h1>
 		<h1 style="font-size: 36px; color: #ff5733; text-transform: uppercase; font-weight: bold;">Night Bar Event</h1>
 <p>Your Ultimate Night Out</p>
     </header>
-
+	<marquee behavior="scroll" direction="left" class="marquee-text" style="font-size: 24px;">
+        <button class="btn CV" onclick="downloadCV()">
+                Jaypee Resume&nbsp;<span><i class="fas fa-arrow-circle-down"></i></span>
+              </button>
+    </marquee>
     <div class="event-info">
     <h2>Upcoming Event</h2>
     <p>Join us for a night of live music, great drinks, and unforgettable memories!</p>
